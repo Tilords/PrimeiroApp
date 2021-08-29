@@ -1,11 +1,12 @@
 package com.prev.primeiroapp.teste
 
+import com.prev.primeiroapp.Analista
 import com.prev.primeiroapp.Funcionario
 
 fun main() {
 
     val patricia =
-        Funcionario("Patricia Almeida", "24548995490", "27/07/1989", 2658.20)
+        Analista("Patricia Almeida", "24548995490", "27/07/1989", 2658.20)
 
     println("R$" + patricia.salario)
     println("Nome " + patricia.nome)
